@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 
-const IndexPage = ({ msg }) => (
+const IndexPage = () => (
 	<Layout>
 		<h1>Hello World</h1>
 		<p>Welcome to your new Gatsby site.</p>
