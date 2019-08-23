@@ -1,5 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca|Poppins&display=swap");
+* {
+  font-family: "Lexend Deca", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
-  font-family: sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -7,6 +15,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #181818;
+  font-family: "Lexend Deca", sans-serif;
 }
 article,
 aside,
@@ -343,6 +353,7 @@ ul {
   margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
+  list-style: none;
 }
 ol {
   margin-left: 1.45rem;
@@ -509,7 +520,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: 0;
 }
 ol li {
   padding-left: 0;
@@ -619,4 +630,36 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.list--item {
+  font-size: 0.7rem;
+  margin: 0 10px;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background: #ffb142;
+  color: #111111;
+  border: none;
+  border: 2px solid #ffb142;
+  margin-right: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.25s all ease-in;
+}
+
+.btn:hover {
+  background: transparent;
+  color: #ffb142;
+  transition: 0.25s all ease-out;
+}
+
+.gatsby-image-wrapper {
+  border-radius: 50px;
+  width: 350px;
+  border: 3px dashed #ffb142;
+  margin-top: 10px;
 }
